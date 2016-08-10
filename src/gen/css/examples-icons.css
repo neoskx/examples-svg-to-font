@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "fonts/examples-fonts";
+	src: url('../fonts/examples-fonts.eot');
+	src: url('../fonts/examples-fonts.eot?#iefix') format('eot'),
+		url('../fonts/examples-fonts.woff2') format('woff2'),
+		url('../fonts/examples-fonts.woff') format('woff'),
+		url('../fonts/examples-fonts.ttf') format('truetype'),
+		url('../fonts/examples-fonts.svg#fonts/examples-fonts') format('svg');
+}
+
+.icon:before {
+	font-family: "fonts/examples-fonts";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-github:before {
+	content: "\E001";
+}
+
+.icon-twitter:before {
+	content: "\E002";
+}
