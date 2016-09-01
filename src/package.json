@@ -1,7 +1,7 @@
 {
   "name": "examples-svg-to-font",
   "version": "0.1.0",
-  "description": "Example of generate svg to icon font",
+  "description": "Example of convert svg to icon font",
   "license": "MIT",
   "repository": "shaoke/examples-svg-to-font",
   "author": "Shaoke Xu<shaokexu@gmail.com>",
@@ -21,17 +21,11 @@
     "css"
   ],
   "dependencies": {
+    "del": "^2.2.0",
     "gulp-util": "^3.0.6",
-    "consolidate": "^0.13.1",
+    "mustache": "^2.2.1",
     "lodash": "^3.10.0"
   },
   "devDependencies": {
-    "del": "^2.2.0",
-    "event-stream": "^3.3.1",
-    "gulp": "^3.9.0",
-    "gulp-iconfont": "^5.0.0",
-    "mocha": "*",
-    "object-assign": "^4.0.1",
-    "gulp-iconfont-css": ""
   }
 }
