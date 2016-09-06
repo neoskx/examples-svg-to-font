@@ -38,3 +38,4 @@ jspm_packages
 
 src/gen
 src/svg-icons
+.idea
